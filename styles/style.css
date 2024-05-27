@@ -39,9 +39,10 @@ a#nova-teaser {
     margin: 0px auto;
     padding: 20px;
     color: red;
-    font-family: GlacialIndifference;
+    font-family: GlacialIndifferenceB;
     text-transform: uppercase;
-    border: 1px solid #FF0000;
+    border: 2px solid #FF0000;
+    background-color: #ff001f5b;
     text-decoration: none;
     border-radius: 10px;
 }
@@ -49,6 +50,11 @@ a#nova-teaser {
 @font-face {
     font-family: "GlacialIndifference";
     src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+    font-family: "GlacialIndifferenceB";
+    src: url(../fonts/GlacialIndifference-Bold.otf);
 }
 
 h1, h2, h3, h4, h5, h6{
